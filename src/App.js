@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Saludo from './components/Saludo';
+import FotoPerfil from './components/FotoPerfil';
+import SaludoP from './components/SaludoP';
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <Saludo nombre={"Emilio"}/>
+      <FotoPerfil url={"https://www.deviantart.com/zunopziz/art/Dandadan-Season-02-Folder-Icon-1210354839"} width= {100}/>    
+      <SaludoP nombre={"Emilio"}/>
     </div>
   );
 }
